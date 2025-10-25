@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "score font";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+body {
+    margin: 0;
+    background-color:#1B244A;
+    color:#fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorebox {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.score {
+    font-family: score font;
+    font-size: 60px;
+    color: #F94F6D;
+}
+
+.homeCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons_grp {
+    margin-top: 10px;
+}
+
+button {
+    background:#1B244A;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 3px;
+}
